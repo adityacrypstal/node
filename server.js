@@ -1,6 +1,6 @@
 const express = require('express');
 var app = express();
-
+const port = process.env.PORT || 3000;
 app.use(express.static(__dirname+'/public'));
 app.set('view engine','hbs');
 // app.use((req, res, next) => {
@@ -14,4 +14,6 @@ app.get('/about',(req,res) => {
 });
 
 // console.log(new Date().getFullYear());
-app.listen('3000');
+app.listen(port , () => {
+    console.log('App started');
+});
