@@ -1,6 +1,6 @@
 body{font-family: sans-serif;}
 .parallax{
-    background-image:linear-gradient(to top,rgba(0, 0, 0, .2),rgba(0,0,0,0.8)),url('bg.jpeg');
+    background-image:linear-gradient(to top,rgba(0, 0, 0, .2),rgba(0,0,0,0.8)),url('../bg.jpeg');
     margin:-15px;
     height:100%;
     background-attachment:fixed;
